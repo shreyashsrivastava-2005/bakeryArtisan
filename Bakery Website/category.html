@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisan Bakehouse - Category</title>
+    <meta name="description" content="Artisan Bakehouse offers freshly baked breads, cakes, pastries, cookies, and handcrafted desserts made with premium ingredients. Order online or visit our bakery for the taste of freshness!">
+    <meta name="keywords" content="bakery, cakes, pastries, bread, artisan bakery, fresh bakery, custom cakes, desserts, cookies, sweet shop, bakehouse">
+    <meta property="og:title" content="Artisan Bakehouse - Fresh Baked Goodness">
+    <meta property="og:description" content="Discover a wide range of freshly baked breads, cakes, pastries & desserts at Artisan Bakehouse. Taste the freshness!">
+    <meta property="og:image" content="URL-to-your-bakery-image.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta name="author" content="Artisan Bakehouse Team">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Artisan Bakehouse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="category.html">Category</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <h1 class="page-title">Our Category</h1>
+        <p class="page-subtitle">From breads to pastries, we've got something for every craving. Select a category and enjoy freshly baked goodness.</p>
+    </div>
+
+    <!-- Category Filter Buttons -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <button class="filter-btn active" onclick="filterProducts('all')">All Products</button>
+                <button class="filter-btn" onclick="filterProducts('cakes')">Cakes</button>
+                <button class="filter-btn" onclick="filterProducts('pastries')">Pastries</button>
+                <button class="filter-btn" onclick="filterProducts('bread')">Bread</button>
+                <button class="filter-btn" onclick="filterProducts('cookies')">Cookies</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CAKES SECTION -->
+    <section class="container section category-section" data-category="cakes">
+        <h2 class="section-title">
+            <i class="fas fa-birthday-cake"></i> Cakes
+        </h2>
+        <div class="row">
+            <!-- Cake Product 1 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cake1.jpg" 
+                             alt="Chocolate Truffle Cake" 
+                             class="product-img">
+                        <span class="product-price">$45</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Chocolate Truffle Cake</h3>
+                        <p class="product-desc">Rich chocolate layers with smooth truffle filling and ganache topping</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake Product 2 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cake2.jpg" 
+                             alt="Vanilla Dream Cake" 
+                             class="product-img">
+                        <span class="product-price">$40</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Vanilla Dream Cake</h3>
+                        <p class="product-desc">Classic vanilla sponge with buttercream frosting and fresh flowers</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake Product 3 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cake3.jpg" 
+                             alt="Red Velvet Delight" 
+                             class="product-img">
+                        <span class="product-price">$48</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Red Velvet Delight</h3>
+                        <p class="product-desc">Velvety red cake with cream cheese frosting and elegant decoration</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake Product 4 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cake4.jpg" 
+                             alt="Strawberry Cream Cake" 
+                             class="product-img">
+                        <span class="product-price">$42</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Strawberry Cream Cake</h3>
+                        <p class="product-desc">Light sponge layered with fresh strawberries and whipped cream</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake Product 5 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cake4.jpg" 
+                             alt="Black Forest Cake" 
+                             class="product-img">
+                        <span class="product-price">$46</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Black Forest Cake</h3>
+                        <p class="product-desc">Chocolate sponge with cherry filling and whipped cream layers</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake Product 6 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cake3.jpg" 
+                             alt="Lemon Bliss Cake" 
+                             class="product-img">
+                        <span class="product-price">$38</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Lemon Bliss Cake</h3>
+                        <p class="product-desc">Tangy lemon cake with zesty frosting and fresh lemon slices</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake Product 7 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cake2.jpg" 
+                             alt="Caramel Delight Cake" 
+                             class="product-img">
+                        <span class="product-price">$44</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Caramel Delight Cake</h3>
+                        <p class="product-desc">Moist vanilla cake with salted caramel drizzle and buttercream</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake Product 8 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cake1.jpg" 
+                             alt="Tiramisu Cake" 
+                             class="product-img">
+                        <span class="product-price">$50</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Tiramisu Cake</h3>
+                        <p class="product-desc">Coffee-soaked layers with mascarpone cream and cocoa dusting</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PASTRIES SECTION -->
+    <section class="container section category-section" data-category="pastries">
+        <h2 class="section-title">
+            <i class="fas fa-cookie-bite"></i> Pastries
+        </h2>
+        <div class="row">
+            <!-- Pastry Product 1 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/pastry1.jpg" 
+                             alt="Croissant Classic" 
+                             class="product-img">
+                        <span class="product-price">$5</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Croissant Classic</h3>
+                        <p class="product-desc">Buttery, flaky layers of perfection baked to golden brown</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pastry Product 2 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/pastry2.jpg" 
+                             alt="Chocolate Eclair" 
+                             class="product-img">
+                        <span class="product-price">$6</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Chocolate Eclair</h3>
+                        <p class="product-desc">Light pastry filled with custard and topped with chocolate glaze</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pastry Product 3 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/pastry3.jpg" 
+                             alt="Fruit Danish" 
+                             class="product-img">
+                        <span class="product-price">$5.50</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Fruit Danish</h3>
+                        <p class="product-desc">Sweet pastry with cream cheese and seasonal fresh fruits</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pastry Product 4 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/pastry4.jpg" 
+                             alt="Almond Tart" 
+                             class="product-img">
+                        <span class="product-price">$7</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Almond Tart</h3>
+                        <p class="product-desc">Buttery crust filled with almond cream and topped with sliced almonds</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pastry Product 5 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/pastry4.jpg" 
+                             alt="Pain au Chocolat" 
+                             class="product-img">
+                        <span class="product-price">$5.50</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Pain au Chocolat</h3>
+                        <p class="product-desc">Flaky pastry with rich dark chocolate batons inside</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pastry Product 6 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/pastry3.jpg" 
+                             alt="Cinnamon Roll" 
+                             class="product-img">
+                        <span class="product-price">$6</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Cinnamon Roll</h3>
+                        <p class="product-desc">Soft swirled pastry with cinnamon sugar and cream cheese icing</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pastry Product 7 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/pastry2.jpg" 
+                             alt="Apple Turnover" 
+                             class="product-img">
+                        <span class="product-price">$5</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Apple Turnover</h3>
+                        <p class="product-desc">Puff pastry filled with spiced apple filling and glazed finish</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pastry Product 8 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/pastry1.jpg" 
+                             alt="Blueberry Muffin" 
+                             class="product-img">
+                        <span class="product-price">$4.50</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Blueberry Muffin</h3>
+                        <p class="product-desc">Moist muffin bursting with fresh blueberries and streusel topping</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BREAD SECTION -->
+    <section class="container section category-section" data-category="bread">
+        <h2 class="section-title">
+            <i class="fas fa-bread-slice"></i> Bread
+        </h2>
+        <div class="row">
+            <!-- Bread Product 1 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/bread1.jpg" 
+                             alt="Sourdough Loaf" 
+                             class="product-img">
+                        <span class="product-price">$8</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Sourdough Loaf</h3>
+                        <p class="product-desc">Traditional artisan sourdough with crispy crust and tangy flavor</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bread Product 2 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/bread2.jpg" 
+                             alt="Multigrain Bread" 
+                             class="product-img">
+                        <span class="product-price">$7</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Multigrain Bread</h3>
+                        <p class="product-desc">Wholesome bread packed with seeds, grains, and fiber</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bread Product 3 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/bread3.jpg" 
+                             alt="French Baguette" 
+                             class="product-img">
+                        <span class="product-price">$6</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">French Baguette</h3>
+                        <p class="product-desc">Classic French bread with crispy exterior and soft interior</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bread Product 4 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/bread4.jpg" 
+                             alt="Whole Wheat Loaf" 
+                             class="product-img">
+                        <span class="product-price">$7.50</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Whole Wheat Loaf</h3>
+                        <p class="product-desc">100% whole wheat bread, soft and nutritious for daily use</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bread Product 5 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/bread4.jpg" 
+                             alt="Ciabatta Bread" 
+                             class="product-img">
+                        <span class="product-price">$7</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Ciabatta Bread</h3>
+                        <p class="product-desc">Italian bread with airy texture and olive oil infusion</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bread Product 6 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/bread3.jpg" 
+                             alt="Rye Bread" 
+                             class="product-img">
+                        <span class="product-price">$8</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Rye Bread</h3>
+                        <p class="product-desc">Dense, flavorful bread with caraway seeds and earthy taste</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bread Product 7 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/bread2.jpg" 
+                             alt="Focaccia Bread" 
+                             class="product-img">
+                        <span class="product-price">$9</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Focaccia Bread</h3>
+                        <p class="product-desc">Herb-infused Italian flatbread with rosemary and sea salt</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bread Product 8 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/bread1.jpg" 
+                             alt="Brioche Bread" 
+                             class="product-img">
+                        <span class="product-price">$10</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Brioche Bread</h3>
+                        <p class="product-desc">Rich, buttery French bread with a tender, cake-like crumb</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COOKIES SECTION -->
+    <section class="container section category-section" data-category="cookies">
+        <h2 class="section-title">
+            <i class="fas fa-cookie"></i> Cookies
+        </h2>
+        <div class="row">
+            <!-- Cookie Product 1 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cookie1.jpg" 
+                             alt="Chocolate Chip Cookies" 
+                             class="product-img">
+                        <span class="product-price">$12</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Chocolate Chip Cookies</h3>
+                        <p class="product-desc">Classic cookies loaded with premium chocolate chips (Dozen)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cookie Product 2 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cookie2.jpg" 
+                             alt="Oatmeal Raisin" 
+                             class="product-img">
+                        <span class="product-price">$10</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Oatmeal Raisin</h3>
+                        <p class="product-desc">Chewy cookies with rolled oats and sweet raisins (Dozen)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cookie Product 3 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cookie3.jpg" 
+                             alt="Sugar Cookies" 
+                             class="product-img">
+                        <span class="product-price">$11</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Sugar Cookies</h3>
+                        <p class="product-desc">Buttery cookies with sparkly sugar coating (Dozen)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cookie Product 4 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cookie4.jpg" 
+                             alt="Double Chocolate" 
+                             class="product-img">
+                        <span class="product-price">$13</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Double Chocolate</h3>
+                        <p class="product-desc">Rich chocolate cookies with extra chocolate chips (Dozen)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cookie Product 5 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cookie4.jpg" 
+                             alt="Peanut Butter Cookies" 
+                             class="product-img">
+                        <span class="product-price">$11</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Peanut Butter Cookies</h3>
+                        <p class="product-desc">Soft cookies with creamy peanut butter goodness (Dozen)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cookie Product 6 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cookie3.jpg" 
+                             alt="Snickerdoodle" 
+                             class="product-img">
+                        <span class="product-price">$11</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Snickerdoodle</h3>
+                        <p class="product-desc">Cinnamon sugar cookies with a soft, chewy texture (Dozen)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cookie Product 7 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cookie2.jpg" 
+                             alt="Macadamia Nut Cookies" 
+                             class="product-img">
+                        <span class="product-price">$14</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Macadamia Nut Cookies</h3>
+                        <p class="product-desc">Premium cookies with white chocolate and macadamia (Dozen)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cookie Product 8 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="images/cookie1.jpg" 
+                             alt="Gingerbread Cookies" 
+                             class="product-img">
+                        <span class="product-price">$12</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Gingerbread Cookies</h3>
+                        <p class="product-desc">Spiced cookies with molasses and festive decorations (Dozen)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-row">
+            <div class="footer-left">
+                <h3>Artisan Bakehouse</h3>
+
+                <p class="footer-address">
+                    <i class="fas fa-map-marker-alt"></i> 123 Bakery Street, Sweetville, India<br>
+                    <i class="fas fa-envelope"></i> artisanbakehouse@gmail.com<br>
+                    <i class="fas fa-phone-alt"></i> +91 98765 43210
+                </p>
+            </div>
+            <div class="footer-right">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
